@@ -30,7 +30,7 @@ const SearchBook = () => {
               <nav id="breadcrumbs" className="dark">
                 <ul>
                   <li><a href="/">Home</a></li>
-                  <li><a href="allbook">Books</a></li>
+                  <li><a href="/allbook">Books</a></li>
                   <li>Find Books</li>
                 </ul>
               </nav>

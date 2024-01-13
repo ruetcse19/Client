@@ -42,8 +42,8 @@ const AllQuestion = () => {
 
                             <nav id="breadcrumbs" className="dark">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="resources-questions-all.html">Question</a></li>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/allquestion">Question</a></li>
                                     <li>All Questions</li>
                                 </ul>
                             </nav>
@@ -99,7 +99,7 @@ const AllQuestion = () => {
  
                                      <div className="question-buttons">
                                          <a href="documents/sample_question.pdf" download="sample_question.pdf" className="download-button">Download Now <i className="icon-feather-download"></i></a>
-                                         <a href="resources-question-details.html" className="download-button" >More Details <i className="icon-feather-link"></i></a>
+                                         <a href="/singlequestion" className="download-button" >More Details <i className="icon-feather-link"></i></a>
                                      </div>
                                  </div>
                              </div>

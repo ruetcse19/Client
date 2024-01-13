@@ -13,8 +13,8 @@ const SearchDiscussion = () => {
 
                             <nav id="breadcrumbs" className="dark">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="resources-discussion-all.html">Discussion</a></li>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/alldiscussion">Discussion</a></li>
                                     <li>Find Discussion</li>
                                 </ul>
                             </nav>
@@ -134,7 +134,7 @@ const SearchDiscussion = () => {
                             </div>
 
 
-                            <a href="resources-question-details.html" className="resource-post resource-listing">
+                            <a href="/singlequestion" className="resource-post resource-listing">
 
                                 <div className="resource-post-content">
                                     <span className="resource-post-date">22 July 2023</span>
@@ -157,7 +157,7 @@ const SearchDiscussion = () => {
                             </a>
 
 
-                            <a href="resources-question-details.html" className="resource-post resource-listing">
+                            <a href="/singlequestion" className="resource-post resource-listing">
 
                                 <div className="resource-post-content">
                                     <span className="resource-post-date">29 June 2023</span>
@@ -180,7 +180,7 @@ const SearchDiscussion = () => {
                             </a>
 
 
-                            <a href="resources-question-details.html" className="resource-post resource-listing">
+                            <a href="/singlequestion" className="resource-post resource-listing">
 
                                 <div className="resource-post-content">
                                     <span className="resource-post-date">10 June 2023</span>
@@ -204,7 +204,7 @@ const SearchDiscussion = () => {
                             </a>
 
 
-                            <a href="resources-question-details.html" className="resource-post resource-listing">
+                            <a href="/singlequestion" className="resource-post resource-listing">
 
                                 <div className="resource-post-content">
                                     <span className="resource-post-date">5 June 2023</span>

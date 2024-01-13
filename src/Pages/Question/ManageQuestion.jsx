@@ -12,10 +12,10 @@ const ManageQuestion = () => {
 							<nav id="breadcrumbs" className="dark">
 								<ul>
 									<li>
-										<a href="index.html">Home</a>
+										<a href="/">Home</a>
 									</li>
 									<li>
-										<a href="dashboard.html">Dashboard</a>
+										<a href="/dashboard">Dashboard</a>
 									</li>
 									<li>Books</li>
 								</ul>
@@ -66,7 +66,7 @@ const ManageQuestion = () => {
 																download="sample_question.pdf" className="download-button">Download
 																Now <i className="icon-feather-download"></i>
 															</a>
-															<a href="resources-question-details.html" className="download-button">More
+															<a href="/singlequestion" className="download-button">More
 																Details <i className="icon-feather-link"></i>
 															</a>
 														</div>
@@ -119,7 +119,7 @@ const ManageQuestion = () => {
 																download="sample_question.pdf" className="download-button">Download
 																Now <i className="icon-feather-download"></i>
 															</a>
-															<a href="resources-question-details.html" className="download-button">More
+															<a href="/singlequestion" className="download-button">More
 																Details <i className="icon-feather-link"></i>
 															</a>
 														</div>

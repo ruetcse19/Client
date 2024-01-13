@@ -43,8 +43,8 @@ const AllPdf = () => {
 
                             <nav id="breadcrumbs" className="dark">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="resources-pdf-slide-all.html">PDF/Slides</a></li>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/allpdf">PDF/Slides</a></li>
                                     <li>All PDF/Slides</li>
                                 </ul>
                             </nav>

@@ -31,8 +31,8 @@ const SearchPdf = () => {
 
                             <nav id="breadcrumbs" className="dark">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="resources-pdf-slide-all.html">PDF/Slide</a></li>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/allpdf">PDF/Slide</a></li>
                                     <li>Find PDF/Slide</li>
                                 </ul>
                             </nav>

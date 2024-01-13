@@ -13,8 +13,8 @@ const AllDiscussion = () => {
 						
 						<nav id="breadcrumbs" className="dark">
 							<ul>
-								<li><a href="index.html">Home</a></li>
-								<li><a href="resources-discussion-all.html">Discussion</a></li>
+								<li><a href="/">Home</a></li>
+								<li><a href="/alldiscussion">Discussion</a></li>
 								<li>All Discussion</li>
 							</ul>
 						</nav>
@@ -60,7 +60,7 @@ const AllDiscussion = () => {
 						<div className="listings-container margin-top-35">
 
 							
-							<a href="resources-question-details.html" className="resource-post resource-listing">
+							<a href="/singlequestion" className="resource-post resource-listing">
 								
 								<div className="resource-post-content">
 									<span className="resource-post-date">22 July 2023</span>
@@ -83,7 +83,7 @@ const AllDiscussion = () => {
 							</a>
 
 							
-							<a href="resources-question-details.html" className="resource-post resource-listing">
+							<a href="/singlequestion" className="resource-post resource-listing">
 								
 								<div className="resource-post-content">
 									<span className="resource-post-date">29 June 2023</span>
@@ -106,7 +106,7 @@ const AllDiscussion = () => {
 							</a>
 
 							
-							<a href="resources-question-details.html" className="resource-post resource-listing">
+							<a href="/singlequestion" className="resource-post resource-listing">
 								
 								<div className="resource-post-content">
 									<span className="resource-post-date">10 June 2023</span>
@@ -129,7 +129,7 @@ const AllDiscussion = () => {
 							</a>
 
 							
-							<a href="resources-question-details.html" className="resource-post resource-listing">
+							<a href="/singlequestion" className="resource-post resource-listing">
 								
 								<div className="resource-post-content">
 									<span className="resource-post-date">5 June 2023</span>

@@ -14,7 +14,7 @@ const DashboardHome = () => {
 
                         <nav id="breadcrumbs" className="dark">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="/">Home</a></li>
                                 <li>Dashboard</li>
                             </ul>
                         </nav>

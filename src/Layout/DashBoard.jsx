@@ -30,9 +30,9 @@ const DashBoard = () => {
                                 <div className="dashboard-nav-inner">
 
                                     <ul data-submenu-title="Start">
-                                        <li className="active"><a href="dashboard.html"><i className="icon-material-outline-dashboard"></i> Dashboard</a></li>
-                                        <li><a href="dashboard-bookmarks.html"><i className="icon-material-outline-bookmark-border"></i> Bookmarks <span className="nav-tag">9</span></a></li>
-                                        <li><a href="dashboard-notifications.html"><i className="icon-material-outline-rate-review"></i> Notifications <span className="nav-tag">3</span></a></li>
+                                        <li className="active"><a href="/dashboard"><i className="icon-material-outline-dashboard"></i> Dashboard</a></li>
+                                        <li><a href=""><i className="icon-material-outline-bookmark-border"></i> Bookmarks <span className="nav-tag">9</span></a></li>
+                                        <li><a href=""><i className="icon-material-outline-rate-review"></i> Notifications <span className="nav-tag">3</span></a></li>
                                     </ul>
 
                                     <ul >

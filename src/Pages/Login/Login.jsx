@@ -63,7 +63,7 @@ const Login = () => {
 
                                 <nav id="breadcrumbs" className="dark">
                                     <ul>
-                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="/">Home</a></li>
                                         <li>Log In</li>
                                     </ul>
                                 </nav>
@@ -84,7 +84,7 @@ const Login = () => {
 
                                 <div className="welcome-text">
                                     <h3>We're glad to see you again!</h3>
-                                    <span>Don't have an account? <a href="register.html">Sign Up!</a></span>
+                                    <span>Don't have an account? <a href="/signup">Sign Up!</a></span>
                                 </div>
 
 

@@ -12,10 +12,10 @@ const ManageNote = () => {
                         <nav id="breadcrumbs" className="dark">
                             <ul>
                                 <li>
-                                    <a href="index.html">Home</a>
+                                    <a href="/">Home</a>
                                 </li>
                                 <li>
-                                    <a href="dashboard.html">Dashboard</a>
+                                    <a href="/dashboard">Dashboard</a>
                                 </li>
                                 <li>Books</li>
                             </ul>

@@ -68,7 +68,7 @@ const AddBook = () => {
                         <h3>Post a Book</h3>
                         <nav id="breadcrumbs" className="dark">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="/">Home</a></li>
                                 <li><a href="#">Dashboard</a></li>
                                 <li>Post a Book</li>
                             </ul>

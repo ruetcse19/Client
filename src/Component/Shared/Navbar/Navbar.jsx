@@ -13,7 +13,7 @@ const Navbar = () => {
 
                             {/* <!-- Logo --> */}
                             <div id="logo">
-                                <a href="index.html"><img src="images/logo.png" alt='' /></a>
+                                <a href="/"><img src="images/logo.png" alt='' /></a>
                             </div>
 
                             {/* <!-- Main Navigation --> */}
@@ -128,11 +128,11 @@ const Navbar = () => {
                                         </div>
 
                                         <ul className="user-menu-small-nav">
-                                            <li><a href="dashboard.html"><i
+                                            <li><a href="/dashboard"><i
                                                 className="icon-material-outline-dashboard"></i> Dashboard</a></li>
-                                            <li><a href="dashboard-settings.html"><i
+                                            <li><a href="/dashboard/setting"><i
                                                 className="icon-material-outline-settings"></i> Settings</a></li>
-                                            <li><a href="index-logged-out.html"><i
+                                            <li><a href="/"><i
                                                 className="icon-material-outline-power-settings-new"></i> Logout</a></li>
                                         </ul>
 

@@ -14,7 +14,7 @@ const SingleQuestion = () => {
 
                             <nav id="breadcrumbs" className="dark">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="/">Home</a></li>
                                     <li><a href="#">Questions</a></li>
                                     <li>Question Details</li>
                                 </ul>
@@ -114,7 +114,7 @@ const SingleQuestion = () => {
                                                         <a href="#" className="download-button"
                                                             download="documents/sample-question.pdf">Download Now <i
                                                                 className="icon-feather-download"></i></a>
-                                                        <a href="resources-question-details.html" className="download-button">More
+                                                        <a href="/singlequestion" className="download-button">More
                                                             Details <i className="icon-feather-link"></i></a>
                                                     </div>
                                                 </div>
@@ -152,7 +152,7 @@ const SingleQuestion = () => {
                                                         <a href="#" className="download-button"
                                                             download="documents/sample-question.pdf">Download Now <i
                                                                 className="icon-feather-download"></i></a>
-                                                        <a href="resources-question-details.html" className="download-button">More
+                                                        <a href="/singlequestion" className="download-button">More
                                                             Details <i className="icon-feather-link"></i></a>
                                                     </div>
                                                 </div>
@@ -191,7 +191,7 @@ const SingleQuestion = () => {
                                                         <a href="#" className="download-button"
                                                             download="documents/sample-question.pdf">Download Now <i
                                                                 className="icon-feather-download"></i></a>
-                                                        <a href="resources-question-details.html" className="download-button">More
+                                                        <a href="/singlequestion" className="download-button">More
                                                             Details <i className="icon-feather-link"></i></a>
                                                     </div>
                                                 </div>

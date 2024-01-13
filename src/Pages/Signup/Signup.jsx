@@ -94,7 +94,7 @@ const Signup = () => {
 
                             <nav id="breadcrumbs" className="dark">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="/">Home</a></li>
                                     <li>Register</li>
                                 </ul>
                             </nav>
@@ -111,7 +111,7 @@ const Signup = () => {
 
                             <div className="welcome-text">
                                 <h3 > create your account!</h3>
-                                <span>Already have an account? <a href="login.html">Log In!</a></span>
+                                <span>Already have an account? <a href="/login">Log In!</a></span>
                             </div>
 
 

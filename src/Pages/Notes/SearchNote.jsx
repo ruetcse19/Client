@@ -30,8 +30,8 @@ const SearchNote = () => {
                             <h2>Browse Notes</h2>
                             <nav id="breadcrumbs" className="dark">
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="resources-notes-all.html">Notes</a></li>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/allnotes">Notes</a></li>
                                     <li>Find Notes</li>
                                 </ul>
                             </nav>
