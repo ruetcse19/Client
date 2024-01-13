@@ -29,8 +29,8 @@ const SearchBook = () => {
               <h2>Browse Books</h2>
               <nav id="breadcrumbs" className="dark">
                 <ul>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="resources-books-all.html">Books</a></li>
+                  <li><a href="/">Home</a></li>
+                  <li><a href="/allbook">Books</a></li>
                   <li>Find Books</li>
                 </ul>
               </nav>
