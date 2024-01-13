@@ -5,7 +5,7 @@ const SearchPdf = () => {
     const [searchQuery, setSearchQuery] = useState("");
 
     useEffect(() => {
-        fetch("http://localhost:5000/api/v1/pdfSlides/pdfs")
+        fetch("https://colorful-vest-foal.cyclic.app/api/v1/pdfSlides/pdfs")
             .then((response) => response.json())
             .then((data) => {
                 setPdf(data.pdfs);

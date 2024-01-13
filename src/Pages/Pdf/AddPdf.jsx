@@ -19,7 +19,7 @@ const AddPdf = () => {
       };
     
       const handlePostPdfSlide = async () => {
-        const apiUrl = 'http://localhost:5000/api/v1/pdfSlides/pdf-slides';
+        const apiUrl = 'https://colorful-vest-foal.cyclic.app/api/v1/pdfSlides/pdf-slides';
     
         try {
           const response = await fetch(apiUrl, {

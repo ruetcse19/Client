@@ -26,7 +26,7 @@ const AddBook = () => {
         });
       };  
       const handlePostBook = async () => {
-        const apiUrl = 'http://localhost:5000/api/v1/books/books';
+        const apiUrl = 'https://colorful-vest-foal.cyclic.app/api/v1/books/books';
       
         try {
           const formData = new FormData();

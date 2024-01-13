@@ -5,7 +5,7 @@ const SearchNote = () => {
     const [searchQuery, setSearchQuery] = useState("");
 
     useEffect(() => {
-        fetch("http://localhost:5000/api/v1/notes/get-all-notes")
+        fetch("https://colorful-vest-foal.cyclic.app/api/v1/notes/get-all-notes")
             .then((response) => response.json())
             .then((data) => {
                 setQuestions(data);

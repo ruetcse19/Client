@@ -45,7 +45,7 @@ const Signup = () => {
                     department: '',
                     introduction: '',
                   };
-                  fetch('http://localhost:5000/api/v1/user/users', {
+                  fetch('https://colorful-vest-foal.cyclic.app/api/v1/user/users', {
                     method: 'POST',
                     headers: {
                       'Content-Type': 'application/json',

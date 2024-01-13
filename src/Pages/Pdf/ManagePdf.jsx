@@ -6,7 +6,7 @@ const ManagePdf = () => {
 
 
 	useEffect(() => {
-		fetch("http://localhost:5000/api/v1/pdfSlides/pdfs")
+		fetch("https://colorful-vest-foal.cyclic.app/api/v1/pdfSlides/pdfs")
 			.then((response) => response.json())
 			.then((data) => {
 				setPdf(data.pdfs);
@@ -15,7 +15,7 @@ const ManagePdf = () => {
 	console.log(pdfs);
 	const handleDeletePdf = async (pdfId) => {
 		try {
-			const response = await fetch(`http://localhost:5000/api/v1/pdfSlides/delete/${pdfId}`, {
+			const response = await fetch(`https://colorful-vest-foal.cyclic.app/api/v1/pdfSlides/delete/${pdfId}`, {
 				method: 'DELETE',
 			});
 

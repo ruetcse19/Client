@@ -7,7 +7,7 @@ const AllBook = () => {
     const [selectedLetter, setSelectedLetter] = useState(null);
 
     useEffect(() => {
-        fetch("http://localhost:5000/api/v1/books/books")
+        fetch("https://colorful-vest-foal.cyclic.app/api/v1/books/books")
             .then((response) => response.json())
             .then((data) => {
                 setBooks(data.books);

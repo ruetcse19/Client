@@ -20,7 +20,7 @@ const AddNotes = () => {
         };
       
         // Make a POST request to the server
-        fetch('http://localhost:5000/api/v1/notes/post-note', {
+        fetch('https://colorful-vest-foal.cyclic.app/api/v1/notes/post-note', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

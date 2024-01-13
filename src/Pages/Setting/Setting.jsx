@@ -7,7 +7,7 @@ const Setting = () => {
 	const [data, setData] = useState([]);
 	// State variables for input values
 	useEffect(() => {
-		fetch(`http://localhost:5000/api/v1/user/users/email/${user.email}`, {
+		fetch(`https://colorful-vest-foal.cyclic.app/api/v1/user/users/email/${user.email}`, {
 			method: 'GET',
 			headers: {
 				'Content-Type': 'application/json',
@@ -61,7 +61,7 @@ const Setting = () => {
 		// Assuming you have the user's ID (replace 'userId' with the actual user ID)
 		const userId = data._id;
 
-		fetch(`http://localhost:5000/api/v1/user/users/${userId}`, {
+		fetch(`https://colorful-vest-foal.cyclic.app/api/v1/user/users/${userId}`, {
 			method: 'PUT',
 			headers: {
 				'Content-Type': 'application/json',

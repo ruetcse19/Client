@@ -5,7 +5,7 @@ const SearchQuestion = () => {
     const [searchQuery, setSearchQuery] = useState("");
 
     useEffect(() => {
-        fetch("http://localhost:5000/api/v1/question/questions")
+        fetch("https://colorful-vest-foal.cyclic.app/api/v1/question/questions")
             .then((response) => response.json())
             .then((data) => {
                 setQuestions(data.questions);

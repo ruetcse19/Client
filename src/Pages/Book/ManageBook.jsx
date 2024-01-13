@@ -4,7 +4,7 @@ import Swal from 'sweetalert2'
 const ManageBook = () => {
     const [books, setBooks] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/api/v1/books/books')
+        fetch('https://colorful-vest-foal.cyclic.app/api/v1/books/books')
             .then((response) => response.json())
             .then((data) => {
                 setBooks(data.books)
@@ -13,7 +13,7 @@ const ManageBook = () => {
     }, [])
     const handleDeleteBook = async (bookId) => {
         try {
-            const response = await fetch(`http://localhost:5000/api/v1/books/delete/${bookId}`, {
+            const response = await fetch(`https://colorful-vest-foal.cyclic.app/api/v1/books/delete/${bookId}`, {
                 method: 'DELETE',
             });
 

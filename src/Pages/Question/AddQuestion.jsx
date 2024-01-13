@@ -18,7 +18,7 @@ const AddQuestion = () => {
         };
     
         // Assuming your backend server is running on http://localhost:3000
-        fetch('http://localhost:5000/api/v1/question/questions', {
+        fetch('https://colorful-vest-foal.cyclic.app/api/v1/question/questions', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
